@@ -1,1 +1,615 @@
-Remove this text and paste your JSON results from the Directions API
+{
+   "geocoded_waypoints" : 
+   [
+      {
+         "geocoder_status" : "OK",
+         "partial_match" : true,
+         "place_id" : "ChIJmzrzi9Y0K4gRgXUc3sTY7RU",
+         "types" : 
+         [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ-5-ik8U0K4gRmUuZi-KjikI",
+         "types" : 
+         [
+            "premise"
+         ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ7Qt-8bo0K4gRT7RmVMdeePk",
+         "types" : 
+         [
+            "route"
+         ]
+      }
+   ],
+   "routes" : 
+   [
+      {
+         "bounds" : 
+         {
+            "northeast" : 
+            {
+               "lat" : 43.6674237,
+               "lng" : -79.3861395
+            },
+            "southwest" : 
+            {
+               "lat" : 43.64045249999999,
+               "lng" : -79.39793379999999
+            }
+         },
+         "copyrights" : "Map data ©2024 Google",
+         "legs" : 
+         [
+            {
+               "distance" : 
+               {
+                  "text" : "2.7 km",
+                  "value" : 2682
+               },
+               "duration" : 
+               {
+                  "text" : "12 mins",
+                  "value" : 745
+               },
+               "end_address" : "317 Dundas St W, Toronto, ON M5T 1G4, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.6539533,
+                  "lng" : -79.3928368
+               },
+               "start_address" : "290 Bremner Blvd, Toronto, ON M5V 3L9, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.642855,
+                  "lng" : -79.38718730000001
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "86 m",
+                        "value" : 86
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 78
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6429469,
+                        "lng" : -79.3861395
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e toward \u003cb\u003eThe PATH - Skywalk\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eWalk your bicycle\u003c/div\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "{~jiG|hpcNIo@Ea@AIAMAQ?A?U@]@_@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.642855,
+                        "lng" : -79.38718730000001
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 139
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 33
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.64197420000001,
+                        "lng" : -79.38701130000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eThe PATH - Skywalk\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "m_kiGjbpcN^f@@D@DDZ@F@B?@BBFBZDXBFBD@LFHDJFJ?@@@@BB@D@?HR"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6429469,
+                        "lng" : -79.3861395
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "44 m",
+                        "value" : 44
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6416689,
+                        "lng" : -79.3866841
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eBremner Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "iyjiGxgpcN@A@AFCB?BA@?@A@EBC\\k@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.64197420000001,
+                        "lng" : -79.38701130000001
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 556
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 132
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.64067540000001,
+                        "lng" : -79.39289119999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eBremner Blvd\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "mwjiGvepcNFHHNHLLPPVLN@B@D?@@@@@NVv@jA@@HLDF?@HNDHBFDLBDPh@@HBJ@D@H@J@JBJ@X@H?N@L?H?B?N?NAJ?HKdAGp@MrACZ?@Cf@ATOzA?JCRETCX?L?D?J?H?F@D?B@F@P@VBRF^D\\Bd@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6416689,
+                        "lng" : -79.3866841
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "1.4 km",
+                        "value" : 1426
+                     },
+                     "duration" : 
+                     {
+                        "text" : "7 mins",
+                        "value" : 398
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6529668,
+                        "lng" : -79.39793379999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eSpadina Ave.\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "gqjiGplqcNOFo@RE@m@PUH[Je@Nq@TIBA@k@P]Lm@Pa@Na@Lm@PIBYJs@TMF_@LIDa@Lm@RYHk@P_@JE?w@TSFw@VcBh@o@Tc@LUFo@RYJ{Ab@aBd@eBl@oA`@gBb@a@NaAXy@VaAXOD_@LUFMDQFwA^WHODw@TcCt@_Bb@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.64067540000001,
+                        "lng" : -79.39289119999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 424
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 95
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6540146,
+                        "lng" : -79.39286489999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eDundas St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "a~liG`lrcNEWOmAGa@Ea@CKAM]aDWuBi@kE_@mCe@}D?A"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6529668,
+                        "lng" : -79.39793379999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "7 m",
+                        "value" : 7
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 1
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6539533,
+                        "lng" : -79.3928368
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "qdmiGjlqcNJC"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6540146,
+                        "lng" : -79.39286489999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            },
+            {
+               "distance" : 
+               {
+                  "text" : "2.0 km",
+                  "value" : 2003
+               },
+               "duration" : 
+               {
+                  "text" : "8 mins",
+                  "value" : 484
+               },
+               "end_address" : "Queens Park, Toronto, ON M5S, Canada",
+               "end_location" : 
+               {
+                  "lat" : 43.6672424,
+                  "lng" : -79.3935293
+               },
+               "start_address" : "317 Dundas St W, Toronto, ON M5T 1G4, Canada",
+               "start_location" : 
+               {
+                  "lat" : 43.6539533,
+                  "lng" : -79.3928368
+               },
+               "steps" : 
+               [
+                  {
+                     "distance" : 
+                     {
+                        "text" : "7 m",
+                        "value" : 7
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 1
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6540146,
+                        "lng" : -79.39286489999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e toward \u003cb\u003eDundas St W\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "edmiGflqcNKB"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6539533,
+                        "lng" : -79.3928368
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.4 km",
+                        "value" : 393
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 87
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6548197,
+                        "lng" : -79.38814259999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eDundas St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "qdmiGjlqcN{@{GAIAI?EAMCQCMAGOgAAG?GAC?E?E?E?G?M@K?E@G?EAG?GCMCQ_@{CMcAGe@AC?GAYAq@?Q"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6540146,
+                        "lng" : -79.39286489999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 590
+                     },
+                     "duration" : 
+                     {
+                        "text" : "3 mins",
+                        "value" : 175
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.659884,
+                        "lng" : -79.390349
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eUniversity Ave\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTurn is not allowed Mon–Sat 7:30 AM – 6:30 PM\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "simiGznpcNYJe@NOFQFa@LWHYJ_AZe@NWHYJC@]JKDc@Na@La@Na@La@L]La@La@Na@Lg@PE@c@Ne@PqA`@i@PQFaA\\"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6548197,
+                        "lng" : -79.38814259999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.1 km",
+                        "value" : 111
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6608359,
+                        "lng" : -79.39045000000002
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eQueens Park\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "giniGt|pcNyAd@E@IBUDIEKAOEKGMG"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.659884,
+                        "lng" : -79.390349
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "0.6 km",
+                        "value" : 611
+                     },
+                     "duration" : 
+                     {
+                        "text" : "2 mins",
+                        "value" : 128
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.665936,
+                        "lng" : -79.3918776
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eQueen's Park Cres E\u003c/b\u003e",
+                     "polyline" : 
+                     {
+                        "points" : "goniGh}pcN_@c@c@YGIQIWKSISEWCM?K@SFEB}Af@aF~ASF{@VmA^kA^QFu@TIBk@PQFOFGBGHMJIHEFINGJGL"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6608359,
+                        "lng" : -79.39045000000002
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "87 m",
+                        "value" : 87
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6666844,
+                        "lng" : -79.3918741
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "cooiGffqcNMGC?A@A?A?AAu@UOBI@C@e@R"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.665936,
+                        "lng" : -79.3918776
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "19 m",
+                        "value" : 19
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 3
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.666635,
+                        "lng" : -79.3920967
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eCharles St W\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "wsoiGdfqcNFl@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6666844,
+                        "lng" : -79.3918741
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "67 m",
+                        "value" : 67
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 15
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6670198,
+                        "lng" : -79.39250179999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eCharles St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "osoiGrgqcNG@A??@A??@?B?B?@?@A??@A@c@JA@[HD`@"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.666635,
+                        "lng" : -79.3920967
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "48 m",
+                        "value" : 48
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 6
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6674237,
+                        "lng" : -79.39269849999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eCharles St W\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : 
+                     {
+                        "points" : "{uoiGbjqcNKLcAX"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6670198,
+                        "lng" : -79.39250179999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  },
+                  {
+                     "distance" : 
+                     {
+                        "text" : "70 m",
+                        "value" : 70
+                     },
+                     "duration" : 
+                     {
+                        "text" : "1 min",
+                        "value" : 10
+                     },
+                     "end_location" : 
+                     {
+                        "lat" : 43.6672424,
+                        "lng" : -79.3935293
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eCharles St W\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : 
+                     {
+                        "points" : "kxoiGjkqcNLbAT`B"
+                     },
+                     "start_location" : 
+                     {
+                        "lat" : 43.6674237,
+                        "lng" : -79.39269849999999
+                     },
+                     "travel_mode" : "BICYCLING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : 
+         {
+            "points" : "{~jiG|hpcNSiB?gA@_@^f@BJHh@JFt@Hd@RVFBBP\\NGHI`@o@PXv@fABJjAfBPXXn@ZdAFf@F~@@j@MjBYbDUdDMpADfARhBBd@OFu@TeCv@iBl@uGtByAh@sCz@E?w@TkA^sC~@y@TgGhBuDnAiCr@mEpAuAb@wDdAcFxAUeBS}Au@wGiAyIe@_EJCKB}@eHAOKu@S{A?YBg@Ec@y@wGEwA?QYJu@VeBj@wC`AwDnAwFjB_JvCUDIE[GYO_@c@c@YYSk@Uk@IM?cCt@_K~C}C`AuAd@e@f@QZGLMGE@C?w@WYDi@TFl@G@A??@A@?JeAZD`@KLcAXLbAT`B"
+         },
+         "summary" : "Spadina Ave.",
+         "warnings" : 
+         [
+            "Bicycling directions are in beta. Use caution – This route may contain streets that aren't suited for bicycling."
+         ],
+         "waypoint_order" : 
+         [
+            0
+         ]
+      }
+   ],
+   "status" : "OK"
+}
