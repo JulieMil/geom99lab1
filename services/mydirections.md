@@ -13,7 +13,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 https://maps.googleapis.com/maps/api/directions/json?origin=CN+Tower&destination=Queens+Park+Toronto&waypoints=317+Dundas+St+W%2C+Toronto%2C+ON+M5T+1G4&avoid=highways&mode=bicycling&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
-Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
+Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository - DONE JM 2024-01-16
 
 ## Optional URLs
 
