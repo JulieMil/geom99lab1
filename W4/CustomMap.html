@@ -1,0 +1,137 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>ArcGIS Maps SDK for JavaScript Tutorials: Add a point, line, and polygon</title>
+  <style>
+    html, body, #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.28/"></script>
+  <script>
+
+  require([
+    "esri/config",
+    "esri/Map",
+    "esri/views/MapView",
+
+    "esri/Graphic",
+    "esri/layers/GraphicsLayer"
+
+    ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
+
+  esriConfig.apiKey = "AAPK3bece643eda04958b2286c4c31702c81xLW3uWBkb1vNmLtX0tzC0NH3aUydvSTm_503M5qlV1b3zIAIXV0eIHAtGLYgMeAC";
+
+  const map = new Map({
+    basemap: "arcgis/topographic" // basemap styles service
+  });
+
+  const view = new MapView({
+    map: map,
+    center: [-20.937420, 164.658285], //Longitude, latitude
+    zoom: 13,
+    container: "viewDiv"
+ });
+ const graphicsLayer = new GraphicsLayer();
+ map.add(graphicsLayer);
+
+ const point = { //Create a point
+    type: "point",
+    longitude: -20.937420, 
+    latitude: 164.658285
+ };
+ const simpleMarkerSymbol = {
+    type: "simple-marker",
+    color: [255,192,203],  // Pink
+    outline: {
+        color: [255, 255, 255], // White
+        width: 1
+    }
+ };
+
+ const pointGraphic = new Graphic({
+    geometry: point,
+    symbol: simpleMarkerSymbol
+ });
+ graphicsLayer.add(pointGraphic);
+
+  // Create a line geometry
+  const polyline = {
+    type: "polyline",
+    paths: [
+        [-20.935686, 164.657159]
+        [-20.939474, 164.659186]
+
+    ]
+ };
+ const simpleLineSymbol = {
+    type: "simple-line",
+    color: [255,192,203], // Pink
+    width: 2
+ };
+
+ const polylineGraphic = new Graphic({
+    geometry: polyline,
+    symbol: simpleLineSymbol
+ });
+ graphicsLayer.add(polylineGraphic);
+
+  // Create a polygon geometry
+  const polygon = {
+    type: "polygon",
+    rings: [
+    
+        [-20.937881, 164.657716]
+        [-20.937841, 164.657309]
+        //[-20.937470, 164.657062]
+       // [-20.937069, 164.657148]
+        //[-20.936778, 164.657641]
+        //[-20.936728, 164.658446]
+        //[-20.936959, 164.659916]
+        //[-20.938462, 164.658982]
+        //[-20.938792, 164.658543]
+        //[-20.939003, 164.658060]
+        //[-20.938933, 164.657738]
+        //[-20.938582, 164.657513]
+        //[-20.938171, 164.657491]
+
+    ]
+ };
+
+ const simpleFillSymbol = {
+    type: "simple-fill",
+    color: [255,192,203, 0.8],  // Orange, opacity 80%
+    outline: {
+        color: [255, 255, 255],
+        width: 1
+    }
+ };
+ const popupTemplate = {
+    title: "{Name}",
+    content: "{Description}"
+ }
+ const attributes = {
+    Name: "Graphic",
+    Description: "This is me trying"
+ }
+ const polygonGraphic = new Graphic({
+    geometry: polygon,
+    symbol: simpleFillSymbol,
+
+    attributes: attributes,
+    popupTemplate: popupTemplate
+
+ });
+ graphicsLayer.add(polygonGraphic);
+ });
+</script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+</body>
+</html>
